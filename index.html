@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tages-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" >
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+        <title>Jun & Ethan</title>
+
+        <!-- Vendor CSS -->
+
+        <script>
+          function scrollToSection(sectionId) {
+              var targetSection = document.getElementById(sectionId);
+              var offset = 50; 
+              if (targetSection) {
+                  var targetPosition = targetSection.offsetTop - offset;
+                  window.scrollTo({
+                      top: targetPosition,
+                      behavior: 'smooth'
+                  });
+              }
+          }
+      </script>
+    </head>
+    
+    <body> 
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top text-uppercase">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                <img src="assets/img/logo.png" alt="Logo" style="width: 50px; height: auto;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" aria-current="page" onclick="scrollToSection('home')">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" onclick="scrollToSection('about')" >About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" onclick="scrollToSection('portfolio')">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded"  onclick="scrollToSection('contact')">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- Main Section -->
+          <section id="home" class="main py-5">
+              <div class="container py-5">
+                  <div class="row py-5" data-aos="fade-up">
+                      <div class="col-lg-6 py-5">
+                          <h3><small>Hello, We're</small>
+                              <br/><b>Jun & Ethan</b>
+                          </h3>
+                          <h6 class="pt-3">BSIT STUDENTS</h6>
+                          <button onclick="scrollToSection('portfolio')" class="bt1 mt-5">Our Work</button>
+                          <button onclick="scrollToSection('about')" class="bt2 mt-5">About Us</button>
+                      </div>
+                  </div>
+              </div>
+          </section>
+    
+        <!-- About Section -->
+        <section id="about" class="about pt-2">
+          <div class="container">
+    
+            <div class="section-title">
+              <h2>About Us</h2>
+              <p>We are Jun and Ethan, passionate BSIT students from the Philippines. With a shared love for innovation and problem-solving, we embark on a journey to explore the vast landscape of information technology. Our mission is to learn, create, and contribute to the ever-evolving digital realm. Join us as we weave our stories into the fabric of the tech universe.</p>
+            </div>
+    
+            <div class="row pt-3 custom-bg-gray" data-aos="fade-up">
+              <div class="col-lg-4 " data-aos="fade-right">
+                <img src="assets/img/pic2.png" class="img-fluid rounded-circle" alt="">
+              </div>
+              <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>JUN ADRIANN V. BULAON</h3>
+                <p class="fst-italic">
+                  "Only I Can Call My Dream Stupid!"
+                </p>
+                <div class="row ">
+                  <div class="col-lg-6">
+                    <ul>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 December 2003</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>San Rafael, Bulacan</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 969 069 4522</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>pokemonjiann@gmail.com</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  I am a very passionate person towards things that I find interesting, such as reading, gaming, and also coding.
+                  I like challenging myself towards difficult things, a reason towards me choosing IT as my future and as the course for me to take.
+                  And this is my passion as of the moment where I could be challenged and improve my skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About2 Section -->
+        <section id="about2" class="about">
+          <div class="container pt-5">
+            <div class="section-title">
+            </div>
+            <div class="row custom-bg-gray" data-aos="fade-up">
+              <div class="col-lg-4" data-aos="fade-right">
+                <img src="assets/img/pic1.png" class="img-fluid rounded-circle" alt="">
+              </div>
+              <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>ETHAN LUKE P. MAGSAKAY</h3>
+                <p class="fst-italic">
+                  "Your present suffering is for your future success."
+                </p>
+                <div class="row">
+                  <div class="col-lg-6">
+                    
+                    <ul>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>29 April 2003</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Hagonoy, Bulacan</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+0948 214 0438</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>emealdra@gmail.com</span></li>
+                  </div>
+                </div>
+                <p>
+                  I have a passion not only for tech stuff, but also in poetry, reading, and playing the piano! Among my hobbies, gaming is my major past-time. 
+                  One of the reasons I chose to pursue IT is because of my connection to computers. In my early years, I spent my time in our family's computer shop,
+                  quickly getting the knack for anything tech related. This early introduction made me realize my love for gaming, and eventually, solving tasks using computers.
+                </p>
+              </div>
+            </div>
+          </div>     
+        </section>
+
+        <!-- Portfolio Section-->
+        <section id="portfolio" class="portfolio">
+          <div class="container pt-4">
+            <div class="section-title">
+              <h2>Portfolio</h2>
+              <p>Welcome to our digital showcase! Dive into our portfolio, a collection of projects that reflect our dedication to innovation and creativity. From web development to design, each piece is a testament to our passion for pushing boundaries and creating meaningful solutions. Take a stroll through our digital gallery and discover the stories behind each project.</p>
+            </div>
+
+            
+            <div class="row" data-aos="fade-up">
+              <h3 class = "pt-3">Jun's Portfolio</h3>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port1.png" alt="Project Image" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Foreign Language Website</h5>
+                    <p class="card-text">In our foreign language, we were tasked to create a portfolio website. http://bit.ly/3v29tPo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port2.png" alt="Project Image" class="card-img-top" style="width: 100%; height: 50%;">
+                  <div class="card-body">
+                    <h5 class="card-title">Vector Illustator</h5>
+                    <p class="card-text">We create a Vector illustration of something we like using shapes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port3.png" alt="Project Image" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">A website prototype with a 3D Logo</h5>
+                    <p class="card-text">For our System Application Development, we were tasked to create a prototype website. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="container pt-4" data-aos="fade-up">
+            <h3>Ethan's Portfolio</h3>
+            <div class="row" data-aos="fade-up">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port4.png" alt="Project Image" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Foreign Language Website</h5>
+                    <p class="card-text">This is my Mandarin class portfolio that I've created. https://myjourneytothewest.my.canva.site/home</p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port5.png" alt="Project Image" class="card-img-top" style="width: 100%; height: 50%;">
+                  <div class="card-body">
+                    <h5 class="card-title">Windblume Tic-Tac-Toe</h5>
+                    <p class="card-text">A Genshin Impact themed tic-tac-toe game with multiple characters, sound effects, and music integration.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="assets/img/port6.png" alt="Project Image" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Payroll System</h5>
+                    <p class="card-text">A payroll system that allows for computating the pay of the selected employee. Allows for clicking an employee or searching by employee ID.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact pt-4">
+          <div class="section-title">
+              <div class="container">
+                  <h2>Contact</h2>
+                  <p>Have questions, ideas, or just want to say hello? We'd love to hear from you! Reach out to us through the channels below, and let's start a conversation.</p>
+              </div>
+          </div>
+      
+          <div class="container" data-aos="fade-up">
+              <div class="row">
+                  <div class="col-lg-6 d-flex align-items-stretch">
+                      <div class="info">
+                          <h3>Jun's Information</h3>
+                          <div class="address pt-2">
+                              <i class="bi bi-geo-alt"></i>
+                              <h4>Location:</h4>
+                              <p>Blk 12 Lot 17, Lapids Ville II, Tambubong San Rafael, Bulacan</p>
+                          </div>
+      
+                          <div class="email">
+                              <i class="bi bi-envelope"></i>
+                              <h4>Email:</h4>
+                              <p>pokemonjiann@gmail.com</p>
+                          </div>
+      
+                          <div class="phone">
+                              <i class="bi bi-phone"></i>
+                              <h4>Call:</h4>
+                              <p>+63 969 069 4522</p>
+                          </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d607.3956992814557!2d120.76302950897681!3d14.840833386150308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1702389214315!5m2!1sen!2sph" style="border:0; width: 100%; height: 290px;"></iframe>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-6 d-flex align-items-stretch">
+                      <div class="info">
+                          <h3>Ethan's Information</h3>
+                          <div class="address pt-2">
+                              <i class="bi bi-geo-alt"></i>
+                              <h4>Location:</h4>
+                              <p>113, Purok 1, San Pedro, Hagonoy, Bulacan</p>
+                          </div>
+      
+                          <div class="email">
+                              <i class="bi bi-envelope"></i>
+                              <h4>Email:</h4>
+                              <p>emealdra@gmail.com</p>
+                          </div>
+      
+                          <div class="phone">
+                              <i class="bi bi-phone"></i>
+                              <h4>Call:</h4>
+                              <p>+63 998 214 0438</p>
+                          </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d607.3956992814557!2d120.76302950897681!3d14.840833386150308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1702389214315!5m2!1sen!2sph" style="border:0; width: 100%; height: 290px;"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </body>
+    
+</html>
+
+<!-- Ethan's Code -->
